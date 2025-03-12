@@ -28,8 +28,8 @@ app.get("/paypal", (req, res) => {
       payment_method: "paypal",
     },
     redirect_urls: {
-      return_url: `https://soccer-challenge-app.herokuapp.com/success?amount=${req.query.amount}`,
-      cancel_url: "https://soccer-challenge-app.herokuapp.com/cancel",
+      return_url: `https://challeng-0a628fe8a2a3.herokuapp.com/success?amount=${req.query.amount}`,
+      cancel_url: "https://challeng-0a628fe8a2a3.herokuapp.com/cancel",
     },
     transactions: [
       {
