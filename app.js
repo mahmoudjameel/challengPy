@@ -93,10 +93,9 @@ app.get("/success", (req, res) => {
   });
 });
 
-app.get("cancel", (req, res) => {
+app.get("/cancel", (req, res) => {
   res.render("cancel");
 });
-
 app.listen(process.env.PORT || 3000, () => {
   console.log("Server is running");
 });
